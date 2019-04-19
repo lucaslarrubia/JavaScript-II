@@ -66,11 +66,11 @@ console.log(multiplyNums(2,4,multiply));
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
-  let foundItem = false;
-  for (let index = 0; index < list.length; index++) {
-    if (item === list[index]) foundItem = true;
-  }
-  cb(foundItem);
+  // let foundItem = false;
+  // for (let index = 0; index < list.length; index++) {
+  //   if (item === list[index]) foundItem = true;
+  // }
+  // cb(foundItem);
 };
 
 /* STRETCH PROBLEM */
